@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Katie Chisholm</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./social.html">Socials</a>
+            <a href="./portfolio.html">Portfolio</a>
+        </div>
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <div class="form">
+            <form action="./form-handling-url" method="post">
+                <fieldset>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" for="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" for="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone number</label>
+                        <input type="text" for="phone" id="phone" required>
+                    </div>
+                    <div>
+                        <label for="reason">Reason for Contact</label>
+                        <input type="radio" for="job" id="reason" required>Job
+                        <input type="radio" for="commission" id="reason">Commission
+                        <input type="radio" for="other" id="reason">Other
+                    </div>
+                    <div>
+                        <textarea class="other" for="other" id="other">If other, please explain...</textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
