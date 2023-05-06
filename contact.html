@@ -22,28 +22,28 @@
         <div class="form">
             <form action="./form-handling-url" method="post">
                 <fieldset>
-                    <div>
-                        <label for="name">Name</label>
-                        <input type="text" for="name" id="name" required>
+                    <div class="form">
+                        <label for="name">Name</label><br>
+                        <input type="text" for="name" id="name" size="50" required>
                     </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" for="email" id="email" required>
+                    <div class="form">
+                        <label for="email">Email</label><br>
+                        <input type="email" for="email" id="email" size="50" required>
                     </div>
-                    <div>
-                        <label for="phone">Phone number</label>
-                        <input type="text" for="phone" id="phone" required>
-                    </div>
-                    <div>
-                        <label for="reason">Reason for Contact</label>
+                    <div class="form">
+                        <label for="phone">Phone number</label><br>
+                        <input type="text" for="phone" id="phone" size="50" required>
+                    </div><br>
+                    <div class="form">
+                        <label for="reason" class="reason-title">Reason for Contact</label><br>
                         <input type="checkbox" for="job" id="reason">Job
                         <input type="checkbox" for="commission" id="reason">Commission
                         <input type="checkbox" for="other" id="reason">Other
-                    </div>
-                    <div>
-                        <textarea class="other" for="other" id="other">If other, please explain...</textarea>
-                    </div>
-                    <div>
+                    </div><br>
+                    <div class="form">
+                        <textarea class="other" for="other" id="other" rows="5" cols="60">If other, please explain...</textarea>
+                    </div><br>
+                    <div class="form">
                         <button type="submit">Submit</button>
                     </div>
                 </fieldset>

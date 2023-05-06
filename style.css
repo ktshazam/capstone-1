@@ -1,0 +1,135 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f7f3e3;
+    display: block;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 20px;
+    list-style-position: inside;
+    text-align: center;
+}
+
+div {
+    background-color: #326273;
+    color: #dc9596;
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6d435a;
+    text-decoration: none;
+}
+
+label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color:#dc9596;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #326273;
+}
+
+a:visited {
+    color: #dc9596;
+    text-decoration: wavy;
+}
+
+p {
+    text-align: center;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #dc9596;
+    font-size: 20px;
+    width: 700px;;
+}
+
+.nav a {
+    color:#dc9596;
+    text-decoration: none;
+    margin: 0px 30px;
+    padding: 0px 25px;
+
+}
+
+.nav a:hover {
+    color:#6d435a;
+    text-decoration: underline;
+    background-color:#f7f3e3;
+}
+
+.nav a:active {
+    background-color: #6d435a;
+    color:#f7f3e3;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    margin: 0px 17%;
+    padding-bottom: 20px;
+}
+
+.img-header {
+    height: auto;
+    width: 700px;
+    text-justify: center;
+}
+
+.about {
+    padding-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 233px 233px 233px;
+    grid-template-rows: 200px 200px;
+    justify-content: space-between;
+    max-width: 700px;
+    overflow: hidden;
+    place-items: center;
+}
+
+.portfolio-link img {
+    width: 150px;
+    height: auto;
+    min-width: 0;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+.portfolio-link img:hover {
+    opacity: 50%;
+}
+
+.form {
+    width: 700px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.reason-title {
+    font-weight: bold;
+}
